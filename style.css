@@ -84,7 +84,23 @@ body{
     color: hsl(240, 18%, 77%);
 }
 
-@media(max-width: 800px){
+@media(max-width: 1200px) {
+    .img {
+        /* width: 400px */
+    }
+    /* .textSection h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    } */
+    .wrapper {
+        background-size: 500px;
+        background-position: left 100% top 30px;
+    }
+}
+
+@media(max-width: 900px){
     body{
         background-size: 250px;
     }
@@ -130,6 +146,3 @@ body{
     }
 }
 
-@media(max-width: 900px){
-
-}
